@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://free.bboxtype.com/embedfonts/?family=FiraGO:400,500,600,700" rel="stylesheet">
+    <style>
+      @import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:400,500,600,700');
+      </style>
+  </head>
+  <body>
+    <nav class="main-navbar">
+        <img class="logo" src="/assets/logo.png" />
+      <div id="buttons">
+        <button class="employee-creation-button">თანამშრომლის შექმნა</button>
+        <button class="task-creation-button"><img src="/assets/add.svg" alt=""> შექმენი ახალი დავალება</button>
+      </div>
+    </nav>
+    <h1 id="task-page-title">
+      დავალებების გვერდი
+    </h1>
+
+    <div class="dropdown">
+      <button class="dropdownB" id="departmentB">დეპარტამენტი <img src="/assets/DArrow.svg"> </button>
+      <button class="dropdownB" id="priorityB">პრიორიტეტი <img src="/assets/DArrow.svg"></button>
+      <button class="dropdownB" id="employeeB"> თანამშრომელი <img src="/assets/DArrow.svg"></button>
+      
+    </div>
+
+    <div class="main-container">
+      <div class="task-container" id="container-beg"> 
+        <h2 class="task-container-title" id="beg-title">დასაწყები</h2>
+      </div>
+      <div class="task-container" id="container-prog">
+        <h2 class="task-container-title" id="prog-title">პროგრესში</h2>
+      </div>
+      <div class="task-container" id="container-test">
+        <h2 class="task-container-title" id="test-title">მზად ტესტირებისთვის</h2>
+      </div>
+      <div class="task-container" id="container-done">
+        <h2 class="task-container-title" id="done-title">დასრულებული</h2>
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+  </body>
+</html>
